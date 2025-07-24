@@ -2,10 +2,11 @@
 
 ## Libraries and Services Required
 
-- [Flask](https://flask.palletsprojects.com)
-- [Jinja2](https://jinja.palletsprojects.com/templates/)
-- [PicoCSS](https://picocss.com/)
-- [Turso](https://turso.tech/)
+- [Flask](https://flask.palletsprojects.com) - Python web framework
+- [Jinja2](https://jinja.palletsprojects.com/templates/) - HTML templating
+- [PicoCSS](https://picocss.com/) - Base CSS stylesheet
+- [Turso](https://turso.tech/) - SQLite DB host
+- [Render](https://render.com/) - Web app hosting
 
 
 ---
@@ -14,6 +15,7 @@
 
 To develop locally, you need to setup a **Python virtual environment (venv)** to keep your Python configuration isolated from the rest of your system.
 
+
 ### VS Code Extensions
 
 To support setting up and developing with the Flask server, add the following extensions to VS Code:
@@ -21,10 +23,11 @@ To support setting up and developing with the Flask server, add the following ex
 - **Python** (from Microsoft)
 - **Better Jinja** (from Samuel Colvin)
 
-You should also have the following (just to n=make life better):
+You should also have the following (just to make life better):
 
-- **Code Spell Checker** (because speeling is hard!)
+- **GitHub Markdown Preview extension pack** (enables Markdown features and preview so that they match those on GitHub)
 - **Error Lens** (places error messages inline, next to code)
+- **Code Spell Checker** (because speeling is hard!)
 
 
 ### Create the Virtual Environment

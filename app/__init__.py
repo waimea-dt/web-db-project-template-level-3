@@ -1,6 +1,10 @@
 #===========================================================
-# App Creation and Launch
+# YOUR PROJECT TITLE HERE
+# YOUR NAME HERE
+#-----------------------------------------------------------
+# BRIEF DESCRIPTION OF YOUR PROJECT HERE
 #===========================================================
+
 
 from flask import Flask, render_template, request, flash, redirect, session
 from werkzeug.security import generate_password_hash, check_password_hash
