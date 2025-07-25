@@ -88,7 +88,12 @@ Achievement standard [91902](as91902.pdf), Use complex techniques to develop a d
 
 Use complex techniques to develop a database means that, taking into account the problem / need and the end users:
 
-1. You need to design the structure of the database:
+1. You must first define the purpose of your system and the end-users' needs:
+   - [ ] Define the **purpose of the system** that uses the database
+   - [ ] Describe the **needs of the end-users**
+   - [ ] Define the **key functionality** of the proposed system
+
+2. You need to design the structure of the database:
    - [ ] **Tables** - at least two that are linked by a relationship
    - [ ] **Data Types** - a range of data types used
    - [ ] **Key Fields** - primary keys for each table, foreign keys for relationships
@@ -97,26 +102,24 @@ Use complex techniques to develop a database means that, taking into account the
    - [ ] Type and format of **Output Data** is described
    - [ ] **Processing of Data** to achieve the output is described
 
-2. You should use appropriate tools and complex techniques to organise and query the data:
+3. You should use appropriate tools and complex techniques to organise and query the data:
    - [ ] **Linking data in related tables** using queries or keys
    - [ ] Writing **custom queries** to update the data (INSERT / UPDATE / DELETE)
 
-3. You should use appropriate tools and complex techniques to present the data:
+4. You should use appropriate tools and complex techniques to present the data:
    - [ ] Creating **customised data displays from multiple tables** for web pages
    - [ ] **Dynamically linking data** between the database and web pages
    - [ ] Applying **data access permissions** as appropriate (user accounts)
 
-4. You must apply appropriate data integrity and testing procedures:
+5. You must apply appropriate data integrity and testing procedures:
    - [ ] Show that any **presented data is correct** (e.g. matches database values / calculations)
    - [ ] Show that any input user data **updates the database as expected**
 
-5. You need to explain relevant implications:
+6. You need to explain and address relevant implications:
    - [ ] Identify the **implications most relevant** to your project
    - [ ] Explain **what the implications mean** and **why each is relevant** to your project
    - [ ] Explain **how each implication will impact your specific project** (considerations / choices / designs)
-
-6. You must ensure that you have addressed the relevant implications above:
-   - [ ] For each one, you need to **explain what you did in your project to address it**
+   - [ ] At the end of your project, you need to **explain what you did in your project to address each implication**
 
 *Note: You must satisfy **all** of the criteria above to pass*
 
@@ -145,7 +148,7 @@ Use complex techniques to develop a refined database means **all of the criteria
 
 2. You must have used efficient tools and techniques in the system's production:
    - [ ] You have effectively used **version control**
-   - [ ] You git **commits are regular with descriptive commit messages**
+   - [ ] Your git **commits are regular with descriptive commit messages**
    - [ ] You have **effectively used tools** like DrawSQL, Figma, VS Code, Turso SQL editor, etc. to help develop the outcome
 
 3. You present the data from the database effectively for the purpose and end users:
@@ -172,29 +175,32 @@ Achievement standard [91903](as91903.pdf), Use complex techniques to develop a d
 
 Use complex techniques to develop a digital media outcome means that, taking into account the problem / need and the end users:
 
-1. You need to use appropriate complex tools and techniques:
-   - [ ] You have used **non-core functionality** of tools / libraries (i.e. you have extended these beyond their defaults)
+1. You must first define the purpose of your system and the end-users' needs:
+   - [ ] Define the **purpose of the system** that uses the database
+   - [ ] Describe the **needs of the end-users**
+   - [ ] Define the **key functionality** of the proposed system
+
+2. You must use appropriate complex tools and techniques, for example:
+   - [ ] You have used **non-core functionality** of tools / libraries (i.e. you have extended these beyond their supplied defaults)
    - [ ] You have applied **industry standards or guidelines** (e.g. PEP 8 style guide for Python)
    - [ ] Your UI uses a **responsive design** for use on multiple devices
-   - [ ] You have **integrated original media assets** into your work
+   - [ ] You have **integrated original media assets** into your work, as needed
    - [ ] You **handle data dynamically**, making your system interactive
    - [ ] You have **automated aspects of your system** through scripts (e.g. Python)
 
-2. You must apply appropriate data integrity and testing procedures:
+3. You must apply appropriate data integrity and testing procedures:
    - [ ] All webpage text should be checked for **accuracy** (e.g. spell-checked)
    - [ ] Any **data shown is as expected** (i.e. matches database / calculated values)
 
-3. You have applied user experience (UX) principles relevant to the purpose of your system:
+4. You have applied user experience (UX) principles relevant to the purpose of your system:
    - [ ] You have **identified key UX principles** that are relevant
    - [ ] You **applied these UX principles** in your system's design and development
 
-4. You need to explain relevant implications:
+5. You need to explain and address relevant implications:
    - [ ] Identify the **implications most relevant** to your project
    - [ ] Explain **what the implications mean** and **why each is relevant** to your project
    - [ ] Explain **how each implication will impact your specific project** (considerations / choices / designs)
-
-5. You must ensure that you have addressed the relevant implications above:
-   - [ ] For each one, you need to **explain what you did in your project to address it**
+   - [ ] At the end of your project, you need to **explain what you did in your project to address each implication**
 
 
 *Note: You must satisfy **all** of the criteria above to pass*
@@ -210,6 +216,7 @@ Use complex techniques to develop an informed digital media outcome means **all 
 
 2. You have used testing tools to help improve your web site:
    - [ ] You have used **code validation** tools for generated HTML and CSS
+   - [ ] You have **fixed any issues** identified
 
 3. You have applied user experience (UX) principles to improve the quality of your web site:
    - [ ] Show evidence that you **tested your system against identified UX principles** during development
