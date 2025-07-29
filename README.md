@@ -1,26 +1,30 @@
-# PROJECT NAME HERE
+# Bike Maintenance Tracker
 
-by YOUR NAME HERE
+by Steve Copley
+
+![MTB](docs/screenshots/yeti.jpg)
 
 
 ---
 
 ## Project Description
 
-Replace this text with your project description and list the key features below
+This is project for the design and creation of a system that allows someone to track maintenance jobs for their bikes.
 
-- Feature 1 here
-- Feature 2 here
-- Feature 3 here
-- Feature 4 here
-- Feature 5 here
+- Bikes can be added to the system
+- Maintenance tasks can be defined for the bikes and added to the system
+- Tasks can be one-offs or can be repeating ones
+- Tasks that have not yet been completed are clearly listed
+- Tasks can be marked as completed
+- When a repeating task is marked as complete, it will be marked as incomplete again after a set amount of time
+
 
 
 ---
 
 ## Project Links
 
-- [GitHub repo for the project](https://github.com/waimea-dt/web-db-project-template-level-3)
+- [GitHub repo for the project](https://github.com/waimea-cpy/300dtd-bike-maintenance-system)
 - [Live web app](https://...)
 
 
