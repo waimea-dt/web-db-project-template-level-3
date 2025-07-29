@@ -21,6 +21,32 @@ After talking with some potential end-users, we realised that the repeating task
 ![DB V2](screenshots/db_v2.png)
 
 
+### Required Data Input
+
+The end-user will supply information about bikes and related tasks. Some of the tasks will be one-offs whilst others will be repeating tasks that need to be completed on a schedule (e.g. every 14 days).
+
+Data will be input via forms and submitted to the database.
+
+Tasks that have been completed can be marked 'done' and the database will be updated.
+
+
+### Required Data Output
+
+The system will display output data in a number of ways:
+- A list of bikes
+- Lists of tasks associated with each bike
+- Details of tasks (e.g. notes, links to help videos, etc.)
+
+
+### Required Data Processing
+
+Some processing is required to obtain the required output data from the database:
+
+- Tasks must be filtered by bike so that only tasks associated with each bike are shown
+
+- Repeating tasks must be evaluated to see if they are due again. This involved looking at the date they were first input / last completed, adding on the repeating day count (e.g. 14) and then seeing if this date is today or in the past. If so, the task is marked as 'not done' so that it again is shown to the user.
+
+
 ---
 
 ## UI 'Flow'
