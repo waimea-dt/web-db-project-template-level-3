@@ -25,6 +25,7 @@ This is project for the design and creation of a system that allows someone to t
 ## Project Links
 
 - [GitHub repo for the project](https://github.com/waimea-cpy/300dtd-bike-maintenance-system)
+- [Project Documentation](https://...)
 - [Live web app](https://...)
 
 
