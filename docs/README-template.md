@@ -21,6 +21,7 @@ Replace this text with your project description and list the key features below
 ## Project Links
 
 - [GitHub repo for the project](https://...)
+- [Project Documentation](https://...)
 - [Live web app](https://...)
 
 
