@@ -96,7 +96,7 @@ def init_logging(app):
                 now = datetime.now().strftime("%H:%M:%S")
                 print(f"[{now}] Request: {REQUEST_COL}{request.method} {request.path} {colStatus(response)}{Fore.RESET}\n")
 
-            return response
+        return response
 
 
 #-----------------------------------------------------------
